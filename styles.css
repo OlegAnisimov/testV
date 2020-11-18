@@ -1,0 +1,36 @@
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+.svgWrapper, .pWrapper {
+    display: inline;
+}
+p {
+    font-size: 16px;
+    color: #666666;
+}
+svg {
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.container {
+    max-width: 60%;
+}
+.a{
+    text-decoration: underline;
+}
+.a:hover{
+    text-decoration: none;
+}
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 300px){
+    .pWrapper{
+        /*display: inline-block;*/
+        text-align: center;
+    }
+}
